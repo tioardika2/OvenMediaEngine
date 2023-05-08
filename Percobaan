@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Top Up Game Otomatis</title>
+
+  <style>
+
+    /* CSS styling untuk tampilan */
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      padding: 20px;
+
+    }
+
+    
+
+    h1 {
+
+      text-align: center;
+
+    }
+
+    
+
+    form {
+
+      max-width: 300px;
+
+      margin: 0 auto;
+
+    }
+
+    
+
+    input[type="text"],
+
+    input[type="number"],
+
+    select {
+
+      width: 100%;
+
+      padding: 10px;
+
+      margin-bottom: 10px;
+
+    }
+
+    
+
+    input[type="submit"] {
+
+      background-color: #4CAF50;
+
+      color: white;
+
+      padding: 10px 20px;
+
+      border: none;
+
+      cursor: pointer;
+
+    }
+
+    
+
+    input[type="submit"]:hover {
+
+      background-color: #45a049;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Top Up Game Otomatis</h1>
+
+  
+
+  <form>
+
+    <label for="game">Game:</label>
+
+    <select id="game" name="game">
+
+      <option value="game1">Game 1</option>
+
+      <option value="game2">Game 2</option>
+
+      <option value="game3">Game 3</option>
+
+    </select>
+
+    
+
+    <label for="player_id">ID Pemain:</label>
+
+    <input type="text" id="player_id" name="player_id" placeholder="Masukkan ID Pemain">
+
+    
+
+    <label for="amount">Jumlah Top Up:</label>
+
+    <input type="number" id="amount" name="amount" placeholder="Masukkan Jumlah Top Up">
+
+    
+
+    <input type="submit" value="Top Up Sekarang">
+
+  </form>
+
+</body>
+
+</html>
+
